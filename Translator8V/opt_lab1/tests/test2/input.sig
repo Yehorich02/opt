@@ -1,0 +1,7 @@
+	PROCEDURE PROC1 ((((VAR1 : INTEGER ; VAR3: FLOAT);
+	(*****8
+	dfdfsdf
+	23345465*gf*)
+	VAR ER : FLOAT
+	BEGIN
+	END.

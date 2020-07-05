@@ -1,0 +1,107 @@
+  Line    Column    Code                Name
+
+   1         1       401              PROGRAM
+   1         9      1001                TEST1
+   1        14        59                    ;
+   2         1       402                BEGIN
+   3         2       408                WHILE
+   3         8      1002               YHTG66
+   3        15       305                   <>
+   3        18      1003                 HGF6
+   3        23       409                   DO
+   4         3       404                   IF
+   4         6      1004                ERTY4
+   4        12        61                    =
+   4        14      1005                 B156
+   4        19       405                 THEN
+   5         3       407                ENDIF
+   5         8        59                    ;
+   6         2       410             ENDWHILE
+   6        10        59                    ;
+   7         1       403                  END
+   7         4        46                    .
+
+
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   TEST1
+        59   ;
+        <block>
+            402   BEGIN
+            <statements-list>
+                <statement>
+                    408   WHILE
+                    <conditional-expression>
+                        <expression>
+                            <variable-identifier>
+                                <identifier>
+                                    1002   YHTG66
+                        <comparison-operator>
+                            305   <>
+                        <expression>
+                            <variable-identifier>
+                                <identifier>
+                                    1003   HGF6
+                    409   DO
+                    <statement-list>
+                        <statement>
+                            <condition-statement>
+                                <incomplete-condition-statement>
+                                    404   IF
+                                    <conditional-expression>
+                                        <expression>
+                                            <variable-identifier>
+                                                <identifier>
+                                                    1004   ERTY4
+                                        <comparison-operator>
+                                            61   =
+                                        <expression>
+                                            <variable-identifier>
+                                                <identifier>
+                                                    1005   B156
+                                    405   THEN
+                                    <statement-list>
+                                        <empty>
+                                <alternative-part>
+                                    <empty>
+                            407   ENDIF
+                            59   ;
+                        <statements-list>
+                            <empty>
+                    410   ENDWHILE
+                    59   ;
+                <statements-list>
+                    <empty>
+            403   END
+        46   .
+
+data segment
+data ends
+code segment
+	assume cs:code, ds:data
+TEST1:
+?L0:
+	mov ax, YHTG66
+	mov bx, HGF6
+	cmp ax, bx
+	jne ?L1
+	mov ax, ERTY4
+	mov bx, B156
+	cmp ax, bx
+	le ?L2
+	nop
+	jmp ?L3
+?L2:	nop
+?L3:	nop
+	nop
+	jmp ?L0
+?L1:	nop
+	nop
+mov ah, 4ch
+int 21h
+code ends
+end TEST1
+

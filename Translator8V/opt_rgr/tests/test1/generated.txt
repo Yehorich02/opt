@@ -1,0 +1,53 @@
+<signal-program>
+    <program>
+        401   PROCEDURE
+        <procedure-identifier>
+            <identifier>
+                1001   TRATATA
+        <parameters-list>
+            40   (
+            <declarations-list>
+                <declaration>
+                    <variable-identifier>
+                        <identifier>
+                            1002   NVLR
+                    <identifiers-list>
+                        <empty>
+                    58   :
+                    <attribute>
+                        405   COMPLEX
+                    <attributes-list>
+                        <empty>
+                    59   ;
+                <declarations-list>
+                    <empty>
+            41   )
+        59   ;
+        <block>
+            <declarations>
+                <variable-declarations>
+                    410   VAR
+                    <declarations-list>
+                        <declaration>
+                            <variable-identifier>
+                                <identifier>
+                                    1003   BOSS
+                            <identifiers-list>
+                                <empty>
+                            58   :
+                            <attribute>
+                                405   COMPLEX
+                            <attributes-list>
+                                <attribute>
+                                    409   EXT
+                                <attributes-list>
+                                    <empty>
+                            59   ;
+                        <declarations-list>
+                            <empty>
+            402   BEGIN
+            <statements-list>
+                <empty>
+            403   END
+        59   ;
+

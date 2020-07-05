@@ -1,0 +1,2 @@
+Parser analysis completed with error
+Parser: Error (line 2, column 12) ":" is passed

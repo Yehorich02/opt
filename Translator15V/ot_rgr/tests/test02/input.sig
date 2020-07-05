@@ -1,0 +1,6 @@
+PROGRAM TYGDV;
+BEGIN
+IN  456;
+($ DGF4534 $)
+END;
+

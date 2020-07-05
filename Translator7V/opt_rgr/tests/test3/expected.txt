@@ -1,0 +1,62 @@
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   TT1
+        59   ;
+        <block>
+            <declarations>
+                <variable-declarations>
+                    404   VAR
+                    <declarations-list>
+                        <declaration>
+                            <variable-Identifier>
+                                <identifier>
+                                    1002   FV444
+                            <identifiers-list>
+                                44   ,
+                                <variable-identifier>
+                                    <identifier>
+                                        1003   ERT41
+                                <identifiers-list>
+                                    <empty>
+                            58   :
+                            <attribute>
+                                410   EXT
+                            <attributes-list>
+                                <attribute>
+                                    408   FLOAT
+                                <attributes-list>
+                                    <empty>
+                            59   ;
+                        <declaraions-list>
+                            <declaration>
+                                <variable-Identifier>
+                                    <identifier>
+                                        1004   V3
+                                <identifiers-list>
+                                    <empty>
+                                58   :
+                                <attribute>
+                                    91   [
+                                    <range>
+                                        <unsigned-integer>
+                                            501   15
+                                        301   ..
+                                        <unsigned-integer>
+                                            502   3445
+                                    <ranges-list>
+                                        <empty>
+                                    93   ]
+                                <attributes-list>
+                                    <empty>
+                                59   ;
+                            <declaraions-list>
+                                <empty>
+            402   BEGIN
+            <statements-list>
+                <empty>
+            403   END
+        46   .
+

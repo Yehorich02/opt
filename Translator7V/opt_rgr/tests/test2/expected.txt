@@ -1,0 +1,19 @@
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   TEST1
+        59   ;
+        <block>
+            <declarations>
+                <variable-declarations>
+                    404   VAR
+                    <declarations-list>
+                        <empty>
+            402   BEGIN
+            <statements-list>
+                <empty>
+            403   END
+        46   .
+

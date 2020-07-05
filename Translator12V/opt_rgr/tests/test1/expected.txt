@@ -1,0 +1,68 @@
+<signal-program>
+    <program>
+        401   PROCEDURE
+        <procedure-identifier>
+            <identifier>
+                1001   OTP1
+        <parameters-list>
+            40   (
+            <variable-identifier>
+                <identifier>
+                    1002   VAR1
+            <identifiers-list>
+                44   ,
+                <variable-identifier>
+                    <identifier>
+                        1003   QWERTY
+                <identifiers-list>
+                    <empty>
+            41   )
+        59   ;
+        <block>
+            <declarations>
+                <label-declarations>
+                404   LABEL
+                <unsigned-integer>
+                    501   0001
+                <labels-list>
+                    44   ,
+                    <unsigned-integer>
+                        502   1111
+                    <labels-list>
+                        44   ,
+                        <unsigned-integer>
+                            503   12345
+                        <labels-list>
+                            <empty>
+                59   ;
+            402   BEGIN
+            <statements-list>
+                <statement>
+                    <unsigned-integer>
+                        502   1111
+                    58   :
+                    <statement>
+                        406   RETURN
+                        59   ;
+                <statements-list>
+                    <statement>
+                        405   GOTO
+                        <unsigned-integer>
+                            501   0001
+                        59   ;
+                    <statements-list>
+                        <statement>
+                            <unsigned-integer>
+                                501   0001
+                            58   :
+                            <statement>
+                                301   ($
+                                <assembly-insert-file-identifier>
+                                    <identifier>
+                                        1004   ASM
+                                302   $)
+                        <statements-list>
+                            <empty>
+            403   END
+        59   ;
+

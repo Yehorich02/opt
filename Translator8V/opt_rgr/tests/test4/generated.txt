@@ -1,0 +1,2 @@
+SynAnaliz analysis completed with error
+SynAnaliz: Error (line 1, column 26) : Must be attribute

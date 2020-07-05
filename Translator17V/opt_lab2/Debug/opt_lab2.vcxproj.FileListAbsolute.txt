@@ -1,0 +1,2 @@
+D:\opt\Translator17V\opt_lab2\Debug\opt_lab2.exe
+D:\opt\Translator17V\opt_lab2\Debug\opt_lab2.pdb

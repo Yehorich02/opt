@@ -1,0 +1,2 @@
+Code Generator completed with error
+Error: line 2 column 5 lexem "T1": invalid identifier

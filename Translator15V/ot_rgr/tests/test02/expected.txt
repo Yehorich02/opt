@@ -1,0 +1,27 @@
+<signal-program>
+   <program>
+      400   PROGRAM
+      <procedure-identifier>
+         <identifier>
+            1001   TYGDV
+      59   ;
+      <block>
+         401   BEGIN
+         <statements-list>
+            <statement>
+               405   IN
+               <unsigned-integer>
+                  501   456
+               59   ;
+            <statements-list>
+               <statement>
+                  302   ($
+                  <assembly-insert-file-identifier>
+                     <identifier>
+                        1002   DGF4534
+                  303   $)
+               <statements-list>
+                  <empty>
+         402   END
+      59   ;
+

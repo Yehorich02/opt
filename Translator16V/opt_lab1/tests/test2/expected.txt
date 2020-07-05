@@ -1,0 +1,25 @@
+  Line    Column    Code                Name
+
+   1         1       401              PROGRAM
+   1         9      1001            LEKSTEST2
+   1        18        59                    ;
+   2         4       402                BEGIN
+   3         5       408                WHILE
+   3        11      1002                 TEMP
+   3        15       305                   <>
+   3        17       501                  100
+   3        21       409                   DO
+   4         3       404                   IF
+   4         6       502                   10
+   4         8        61                    =
+   4         9       503                   15
+   4        12       405                 THEN
+   6         3       406                 ELSE
+   8         3       407                ENDIF
+   8         8        59                    ;
+   9         2       410             ENDWHILE
+   9        10        59                    ;
+  10         4       403                  END
+  10         7        46                    .
+
+

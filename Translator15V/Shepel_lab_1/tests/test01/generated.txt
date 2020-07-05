@@ -1,0 +1,27 @@
+
+   row   column   id    lexem
+
+    1       1    1001procedure
+
+    1      11     400 PROGRAM
+
+    1      18      59       ;
+
+    2       1    1002   begin
+
+    3       1    1003     end
+
+    3       4      59       ;
+
+    4       1    1004 PROgram
+
+    4       9    1005   AB2CD
+
+    4      14      59       ;
+
+    7       1     401   BEGIN
+
+    8       1     402     END
+
+Lexer error: line  8  column  4  invalid character  '.'
+

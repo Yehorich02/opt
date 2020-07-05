@@ -1,0 +1,13 @@
+  Line    Column    Code                Name
+
+   1         1       401            PROCEDURE
+   1        11      1001                  COM
+   1        16        40                    (
+   1        16        41                    )
+   1        17        59                    ;
+   2         1        59                    ;
+   4         1       402                BEGIN
+
+
+Lexical error on Line 2 Column 1: Impossible combination of characters: /
+Lexical error on Line 5 Column 1: Impossible combination of characters: (*EDFSDSFSDF4565)END;

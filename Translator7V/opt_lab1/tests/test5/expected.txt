@@ -1,0 +1,27 @@
+  Line    Column    Code                Name
+
+   1         1       401              PROGRAM
+   1         9      1001                TEST1
+   1        14        59                    ;
+   2         1       404                  VAR
+   2         5      1002                 VAR1
+   2         9        44                    ,
+   2        11      1003                 VAR2
+   2        15        44                    ,
+   2        17      1004                 VAR3
+   2        21        58                    :
+   2        23       406              COMPLEX
+   2        31        91                    [
+   2        32       501                   10
+   2        35       301                   ..
+   2        36       502                  100
+   2        39        44                    ,
+   2        41       503                    1
+   2        43       301                   ..
+   2        44       504                  999
+   2        47        93                    ]
+   2        48        59                    ;
+   3         1       402                BEGIN
+
+
+Lexical error on Line 4 Column 1: Not a close comment (*dsDFSGRBDG553454rgdf)END.ÿ

@@ -1,0 +1,9 @@
+PROCEDURE OTP1( VAR1, QWERTY);
+LABEL 0001, 1111, 12345;
+BEGIN
+	1111: RETURN;
+	;
+	($$,:;.$$$$)
+END;
+(*dfsdg
+$35465)

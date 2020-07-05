@@ -1,0 +1,38 @@
+  Line    Column    Code                Name
+
+   1         1       401            PROCEDURE
+   1        11      1001                 OTP1
+   1        16        40                    (
+   1        17      1002                 VAR1
+   1        21        44                    ,
+   1        23      1003               QWERTY
+   1        29        41                    )
+   1        30        59                    ;
+   2         1       404                LABEL
+   2         7       501                 0001
+   2        11        44                    ,
+   2        13       502                 1111
+   2        17        44                    ,
+   2        19       503                12345
+   2        24        59                    ;
+   3         1       402                BEGIN
+   4         2       502                 1111
+   4         6        58                    :
+   4         8       406               RETURN
+   4        14        59                    ;
+   5         2        59                    ;
+   6         2       301                   ($
+   6         5        44                    ,
+   6         6        58                    :
+   6         7        59                    ;
+   6         8        46                    .
+   6        12       302                   $)
+   7         1       403                  END
+   7         4        59                    ;
+
+
+Lexical error on Line 6 Column 4: Impossible combination of characters: $
+Lexical error on Line 6 Column 9: Impossible combination of characters: $
+Lexical error on Line 6 Column 10: Impossible combination of characters: $
+Lexical error on Line 6 Column 11: Impossible combination of characters: $
+Lexical error on Line 8 Column 1: Not a close comment (*dfsdg$35465)

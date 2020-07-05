@@ -1,0 +1,6 @@
+PROGAM 1223;
+PROCEDURE Pd
+(*dgfhj*)
+BEGI
+sdsds2344
+END.

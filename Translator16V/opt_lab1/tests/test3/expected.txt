@@ -1,0 +1,36 @@
+  Line    Column    Code                Name
+
+   1         1       401              PROGRAM
+   1        18        59                    ;
+   2         1       402                BEGIN
+   3         5       404                   IF
+   3        10        62                    >
+   3        11        60                    <
+   3        13       501                   10
+   3        16       405                 THEN
+   4        12       502                   15
+   4        15        61                    =
+   4        17       501                   10
+   4        20       405                 THEN
+   5         9      1001                 TEMP
+   5        14        61                    =
+   5        16       503                  100
+   6         9      1002                EDNIF
+   6        14        59                    ;
+   7         5       406                 ELSE
+   8         9       408                WHILE
+   8        15       502                   15
+   8        18       305                   <>
+   8        21       501                   10
+   8        24       409                   DO
+   9        17        59                    ;
+  10         5       407                ENDIF
+  10        10        59                    ;
+  11         1       403                  END
+  11         4        46                    .
+
+
+Lexical error on Line 1 Column 9: Impossible combination of characters: LeKSTeST1
+Lexical error on Line 3 Column 5: Impossible combination of characters: a
+Lexical error on Line 3 Column 16: Impossible combination of characters: iF
+Lexical error on Line 9 Column 9: Impossible combination of characters: ENDwHILE

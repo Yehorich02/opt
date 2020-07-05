@@ -1,0 +1,150 @@
+  Line    Column    Code                Name
+
+   1         1       401              PROGRAM
+   1         9      1001                 B671
+   1        13        59                    ;
+   2         1       402                BEGIN
+   3         2       404                   IF
+   3         5      1002                 GHJ5
+   3        11        61                   >=
+   3        13       501                   15
+   3        16       405                 THEN
+   4         3       408                WHILE
+   4         9      1003                  RTH
+   4        12        61                    =
+   4        14       502                  456
+   4        18       409                   DO
+   5         4       404                   IF
+   5         7      1004                 KJHG
+   5        12        60                    <
+   5        14       503                   11
+   5        17       405                 THEN
+   6         4       406                 ELSE
+   7         4       407                ENDIF
+   7         9        59                    ;
+   8         3       410             ENDWHILE
+   8        11        59                    ;
+   9         2       406                 ELSE
+  10         2       407                ENDIF
+  10         7        59                    ;
+  11         1       403                  END
+  11         4        46                    .
+
+
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   B671
+        59   ;
+        <block>
+            402   BEGIN
+            <statements-list>
+                <statement>
+                    <condition-statement>
+                        <incomplete-condition-statement>
+                            404   IF
+                            <conditional-expression>
+                                <expression>
+                                    <variable-identifier>
+                                        <identifier>
+                                            1002   GHJ5
+                                <comparison-operator>
+                                    61   >=
+                                <expression>
+                                    <unsigned-integer>
+                                        501   15
+                            405   THEN
+                            <statement-list>
+                                <statement>
+                                    408   WHILE
+                                    <conditional-expression>
+                                        <expression>
+                                            <variable-identifier>
+                                                <identifier>
+                                                    1003   RTH
+                                        <comparison-operator>
+                                            61   =
+                                        <expression>
+                                            <unsigned-integer>
+                                                502   456
+                                    409   DO
+                                    <statement-list>
+                                        <statement>
+                                            <condition-statement>
+                                                <incomplete-condition-statement>
+                                                    404   IF
+                                                    <conditional-expression>
+                                                        <expression>
+                                                            <variable-identifier>
+                                                                <identifier>
+                                                                    1004   KJHG
+                                                        <comparison-operator>
+                                                            60   <
+                                                        <expression>
+                                                            <unsigned-integer>
+                                                                503   11
+                                                    405   THEN
+                                                    <statement-list>
+                                                        <empty>
+                                                <alternative-part>
+                                                    406   ELSE
+                                                    <statement-list>
+                                                        <empty>
+                                            407   ENDIF
+                                            59   ;
+                                        <statements-list>
+                                            <empty>
+                                    410   ENDWHILE
+                                    59   ;
+                                <statements-list>
+                                    <empty>
+                        <alternative-part>
+                            406   ELSE
+                            <statement-list>
+                                <empty>
+                    407   ENDIF
+                    59   ;
+                <statements-list>
+                    <empty>
+            403   END
+        46   .
+
+data segment
+data ends
+code segment
+	assume cs:code, ds:data
+B671:
+	mov ax, GHJ5
+	mov bx, 15
+	cmp ax, bx
+	le ?L0
+?L2:
+	mov ax, RTH
+	mov bx, 456
+	cmp ax, bx
+	le ?L3
+	mov ax, KJHG
+	mov bx, 11
+	cmp ax, bx
+	jl ?L4
+	nop
+	jmp ?L5
+?L4:	nop
+	nop
+?L5:	nop
+	nop
+	jmp ?L2
+?L3:	nop
+	nop
+	jmp ?L1
+?L0:	nop
+	nop
+?L1:	nop
+	nop
+mov ah, 4ch
+int 21h
+code ends
+end B671
+

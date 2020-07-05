@@ -1,0 +1,30 @@
+  Line    Column    Code                Name
+
+   1         1       401              PROGRAM
+   1         9      1001                TEST1
+   1        14        59                    ;
+   2         1       402                BEGIN
+   4         3       406                  FOR
+   4         7      1002                 VAR1
+   4        14       301                   :=
+   4        17       301                   :=
+   4        18        59                    ;
+   4        20      1003                 VAR2
+   4        24        43                    +
+   4        25      1004                 VAR3
+   4        30       409                   TO
+   4        33       501                  100
+   4        36        45                    -
+   4        37      1004                 VAR3
+   4        42       408                   DO
+   5         3      1005              ENDFOR2
+   5        10        59                    ;
+   6         2       405              ENDLOOP
+   6         9        59                    ;
+
+
+Lexical error on Line 3 Column 2: Impossible combination of characters: LOOoP
+Lexical error on Line 4 Column 11: Impossible combination of characters: ::
+Lexical error on Line 4 Column 12: Impossible combination of characters: ::
+Lexical error on Line 4 Column 13: Impossible combination of characters: =
+Lexical error on Line 7 Column 2: Impossible combination of characters: (*r4w54wefsd	w4tgfxgdg)END.

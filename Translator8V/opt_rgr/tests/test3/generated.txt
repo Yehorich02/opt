@@ -1,0 +1,2 @@
+SynAnaliz analysis completed with error
+SynAnaliz: Error (line 2, column 19) ":" is passed

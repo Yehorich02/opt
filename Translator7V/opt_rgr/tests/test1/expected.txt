@@ -1,0 +1,62 @@
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   TEST1
+        59   ;
+        <block>
+            <declarations>
+                <variable-declarations>
+                    404   VAR
+                    <declarations-list>
+                        <declaration>
+                            <variable-Identifier>
+                                <identifier>
+                                    1002   VAR1
+                            <identifiers-list>
+                                44   ,
+                                <variable-identifier>
+                                    <identifier>
+                                        1003   VAR2
+                                <identifiers-list>
+                                    44   ,
+                                    <variable-identifier>
+                                        <identifier>
+                                            1004   VAR3
+                                    <identifiers-list>
+                                        <empty>
+                            58   :
+                            <attribute>
+                                406   COMPLEX
+                            <attributes-list>
+                                <attribute>
+                                    91   [
+                                    <range>
+                                        <unsigned-integer>
+                                            501   10
+                                        301   ..
+                                        <unsigned-integer>
+                                            502   100
+                                    <ranges-list>
+                                        44   ,
+                                        <range>
+                                            <unsigned-integer>
+                                                503   1
+                                            301   ..
+                                            <unsigned-integer>
+                                                504   999
+                                        <ranges-list>
+                                            <empty>
+                                    93   ]
+                                <attributes-list>
+                                    <empty>
+                            59   ;
+                        <declaraions-list>
+                            <empty>
+            402   BEGIN
+            <statements-list>
+                <empty>
+            403   END
+        46   .
+

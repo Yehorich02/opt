@@ -1,0 +1,50 @@
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   QWERTY23
+        59   ;
+        <block>
+            <declarations>
+                <procedure-declarations>
+                    <procedure>
+                        402   PROCEDURE
+                        <procedure-identifier>
+                            <identifier>
+                                1002   BBB
+                        <parameters-list>
+                            40   (
+                            <declarations-list>
+                                <declaration
+                                    <variable-identifier>
+                                        <identifier>
+                                            1003   QW
+                                    <identifiers-list>
+                                        44   ,
+                                        <variable-identifier>
+                                            <identifier>
+                                                1004   AW
+                                        <identifiers-list>
+                                            <empty>
+                                    58   :
+                                    <attribute>
+                                        406   COMPLEX
+                                    <attributes-list>
+                                        <attribute>
+                                            410   EXT
+                                        <attributes-list>
+                                            <empty>
+                                    59   ;
+                                <declarations-list>
+                                    <empty>
+                            41   )
+                        59   ;
+                    <procedure-declarations>
+                        <empty>
+            403   BEGIN
+            <statements-list>
+                <empty>
+            404   END
+        59   ;
+

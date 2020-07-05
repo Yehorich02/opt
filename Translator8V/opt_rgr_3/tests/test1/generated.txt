@@ -1,0 +1,78 @@
+<signal-program>
+    <program>
+        401   PROCEDURE
+        <procedure-identifier>
+            <identifier>
+                1001   TRATATA
+        <parameters-list>
+            40   (
+            <declarations-list>
+                <empty>
+            41   )
+        59   ;
+        <block>
+            <declarations>
+                <variable-declarations>
+                    410   VAR
+                    <declarations-list>
+                        <declaration>
+                            <variable-identifier>
+                                <identifier>
+                                    1002   BOSS
+                            <identifiers-list>
+                                <empty>
+                            58   :
+                            <attribute>
+                                405   COMPLEX
+                            <attributes-list>
+                                <attribute>
+                                    409   EXT
+                                <attributes-list>
+                                    <empty>
+                            59   ;
+                        <declarations-list>
+                            <empty>
+            402   BEGIN
+            <statements-list>
+                <statement>
+                    411   IF
+                    <cond>
+                        <variable-identifier>
+                            <identifier>
+                                1003   RETE
+                        61   =
+                        <variable-identifier>
+                            <identifier>
+                                1004   BFG
+                    414   THEN
+                    <statements-list>
+                        <statement>
+                            411   IF
+                            <cond>
+                                <variable-identifier>
+                                    <identifier>
+                                        1003   RETE
+                                61   =
+                                <variable-identifier>
+                                    <identifier>
+                                        1004   BFG
+                            414   THEN
+                            <statements-list>
+                                <empty>
+                            <else>
+                                <empty>
+                            413   ENDIF
+                            59   ;
+                        <statements-list>
+                            <empty>
+                    <else>
+                        412   ELSE
+                        <statements-list>
+                            <empty>
+                    413   ENDIF
+                    59   ;
+                <statements-list>
+                    <empty>
+            403   END
+        59   ;
+

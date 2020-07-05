@@ -1,0 +1,12 @@
+PROGRAM LEKSTEST1;
+BEGIN
+	IF 15 >< 10 THEN
+		IF 15 = 10 THEN
+			TEMP = 100
+		EDNIF;
+	ELSE
+		WHILE 15 <> 10 DO
+		ENDWHILE;
+	ENDIF;
+(*dfgf12(***********34vbv*)
+END.

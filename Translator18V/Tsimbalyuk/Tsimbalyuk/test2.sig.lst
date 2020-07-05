@@ -1,0 +1,16 @@
+      Code                Name      Line    Column
+
+       401             PROGRAM         1         1
+      1000            1MYPROGA         1         9
+        59                   ;         1        17
+      1001                  BE         2         1
+      1002                 GIN         2        11
+      1003              GDSUAI         3         1
+        42                   *         3         8
+       501                1212         3        10
+        59                   ;         3        14
+       403                 END         4         1
+        46                   .         4         4
+
+
+Lexical error on Line 1 Column 9: Impossible combination of characters

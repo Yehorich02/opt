@@ -1,0 +1,9 @@
+﻿  LexAnaliz.cpp
+D:\opt\Translator17V\opt_lab2\LexAnaliz.cpp(281,6): warning C4101: n: неиспользованная локальная переменная
+D:\opt\Translator17V\opt_lab2\LexAnaliz.cpp(382,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\opt\Translator17V\opt_lab2\LexAnaliz.cpp(392,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\opt\Translator17V\opt_lab2\LexAnaliz.cpp(402,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\opt\Translator17V\opt_lab2\LexAnaliz.cpp(416,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\opt\Translator17V\opt_lab2\LexAnaliz.cpp(424,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\opt\Translator17V\opt_lab2\LexAnaliz.cpp(441,21): warning C4018: <: несоответствие типов со знаком и без знака
+  opt_lab2.vcxproj -> D:\opt\Translator17V\opt_lab2\Debug\opt_lab2.exe

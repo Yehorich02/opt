@@ -1,0 +1,42 @@
+<signal-program>
+   <program>
+      400   PROGRAM
+      <procedure-identifier>
+         <identifier>
+            1001   FDSG43534
+      59   ;
+      <block>
+         401   BEGIN
+         <statements-list>
+            <statement>
+               <variable-identifier>
+                  <identifier>
+                     1002   DFDG56
+               301   :=
+               <unsigned-integer>
+                  501   56
+               59   ;
+            <statements-list>
+               <statement>
+                  <procedure-identifier>
+                     <identifier>
+                        1003   DTHFG4565
+                  <actual-arguments>
+                     40   (
+                     <variable-identifier>
+                        <identifier>
+                           1004   FDG563
+                     <actual-arguments-list>
+                        44   ,
+                        <variable-identifier>
+                           <identifier>
+                              1005   TY456
+                        <actual-arguments-list>
+                           <empty>
+                     41   )
+                  59   ;
+               <statements-list>
+                  <empty>
+         402   END
+      59   ;
+

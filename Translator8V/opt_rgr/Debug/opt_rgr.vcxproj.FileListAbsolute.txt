@@ -1,0 +1,2 @@
+D:\opt\Translator8V\opt_rgr\Debug\opt_rgr.exe
+D:\opt\Translator8V\opt_rgr\Debug\opt_rgr.pdb

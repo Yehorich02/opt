@@ -1,0 +1,2 @@
+Code Generator completed with error
+Error: number of identifiers is not equal to number of attribute

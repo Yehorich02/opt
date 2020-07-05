@@ -1,0 +1,21 @@
+<signal-program>
+    <program>
+        401   PROCEDURE
+        <procedure-identifier>
+            <identifier>
+                1001   VADIM
+        <parameters-list>
+            <empty>
+        59   ;
+        <block>
+            <declarations>
+                <variable-declarations>
+                    410   VAR
+                    <declarations-list>
+                        <empty>
+            402   BEGIN
+            <statements-list>
+                <empty>
+            403   END
+        59   ;
+

@@ -1,0 +1,10 @@
+  Line    Column    Code                Name
+
+   1         1       401              PROGRAM
+   1        13        59                    ;
+   2         1       402                BEGIN
+   6         1       403                  END
+   6         4        46                    .
+
+
+Lexical error on Line 1 Column 9: Impossible combination of characters: Test

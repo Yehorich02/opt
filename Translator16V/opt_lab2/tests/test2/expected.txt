@@ -1,0 +1,58 @@
+  Line    Column    Code                Name
+
+   1         1       401              PROGRAM
+   1         9      1001                 QWER
+   1        13        59                    ;
+   2         1       402                BEGIN
+   3         2       404                   IF
+   3         5      1001                 QWER
+   3        10       305                   <>
+   3        13       501                   15
+   3        16       405                 THEN
+   4         2       406                 ELSE
+   5         2       407                ENDIF
+   5         7        59                    ;
+   6         1       403                  END
+   6         4        46                    .
+
+
+<signal-program>
+    <program>
+        401   PROGRAM
+        <procedure-identifier>
+            <identifier>
+                1001   QWER
+        59   ;
+        <block>
+            402   BEGIN
+            <statements-list>
+                <statement>
+                    <condition-statement>
+                        <incomplete-condition-statement>
+                            404   IF
+                            <conditional-expression>
+                                <expression>
+                                    <variable-identifier>
+                                        <identifier>
+                                            1001   QWER
+                                <comparison-operator>
+                                    305   <>
+                                <expression>
+                                    <unsigned-integer>
+                                        501   15
+                            405   THEN
+                            <statement-list>
+                                <empty>
+                        <alternative-part>
+                            406   ELSE
+                            <statement-list>
+                                <empty>
+                    407   ENDIF
+                    59   ;
+                <statements-list>
+                    <empty>
+            403   END
+        46   .
+
+Code Generator completed with error
+Code Generator: Error on Line 3, Column 5: Invalid identifier, don`t use name program

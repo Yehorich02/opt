@@ -1,0 +1,9 @@
+PROGRAM TEST1;
+BEGIN
+	LOOoP
+		FOR VAR1:::==:=; VAR2+VAR3 TO 100-VAR3 DO
+		ENDFOR2;
+	ENDLOOP;
+	(*r4w54wefsd
+	w4tgfxgdg)
+END.

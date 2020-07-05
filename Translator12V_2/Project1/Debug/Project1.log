@@ -1,0 +1,39 @@
+﻿  CategoryWorkers.cpp
+  LexParser.cpp
+  Source.cpp
+  SynParser.cpp
+D:\opt\Translator12V_2\Project1\SynParser.cpp(31,10): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(39,11): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(47,12): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(55,13): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(65,14): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(71,15): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(75,16): warning C4018: <: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(112,10): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(128,12): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(134,13): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(165,10): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(191,10): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(204,12): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(225,11): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(233,12): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(255,11): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(277,11): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(307,10): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(350,10): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(360,11): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(366,12): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(393,10): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(403,11): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(411,12): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(419,13): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(451,10): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(459,11): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(469,12): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(494,10): warning C4018: >=: несоответствие типов со знаком и без знака
+D:\opt\Translator12V_2\Project1\SynParser.cpp(513,10): warning C4018: >=: несоответствие типов со знаком и без знака
+  Utils.cpp
+  Создание кода...
+D:\opt\Translator12V_2\Project1\SynParser.cpp(303): warning C4715: SynParser::statement: значение возвращается не при всех путях выполнения
+D:\opt\Translator12V_2\Project1\CategoryWorkers.cpp(110): warning C4715: workWithCategoryFive: значение возвращается не при всех путях выполнения
+  Project1.vcxproj -> D:\opt\Translator12V_2\Project1\Debug\Project1.exe
