@@ -1,2 +1,0 @@
-D:\opt\Translator17V\opt_rgr\Debug\rgr.exe
-D:\opt\Translator17V\opt_rgr\Debug\rgr.pdb

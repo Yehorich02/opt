@@ -1,4 +1,0 @@
-﻿  SynAnalizer.cpp
-D:\opt\Translator8V\opt_rgr\SynAnalizer.cpp(34,10): warning C4018: >=: несоответствие типов со знаком и без знака
-D:\opt\Translator8V\opt_rgr\SynAnalizer.cpp(355): warning C4715: SynAnaliz::declaration: значение возвращается не при всех путях выполнения
-  opt_rgr.vcxproj -> D:\opt\Translator8V\opt_rgr\Debug\opt_rgr.exe
